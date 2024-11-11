@@ -4,4 +4,3 @@ pandas
 openpyxl 
 altair
 datetime
-calendar
