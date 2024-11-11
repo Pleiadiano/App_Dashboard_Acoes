@@ -3,6 +3,5 @@ importlib.metadata
 pandas
 openpyxl 
 altair
-PIL
 datetime
 calendar
