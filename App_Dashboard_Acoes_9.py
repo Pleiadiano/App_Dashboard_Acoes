@@ -3,7 +3,11 @@ import streamlit.runtime.scriptrunner.magic_funcs
 import importlib.metadata
 from importlib.metadata import version  
 import pandas as pd
-import openpyxl as openpyxl
+import openpyxl
+from openpyxl import Workbook
+from io import BytesIO
+
+
 import altair as alt
 from PIL import Image
 from datetime import datetime
