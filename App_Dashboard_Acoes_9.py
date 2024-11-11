@@ -3,6 +3,7 @@ import streamlit.runtime.scriptrunner.magic_funcs
 import importlib.metadata
 from importlib.metadata import version  
 import pandas as pd
+import openpyxl
 import altair as alt
 from PIL import Image
 from datetime import datetime
