@@ -3,7 +3,7 @@ import streamlit.runtime.scriptrunner.magic_funcs
 import importlib.metadata
 from importlib.metadata import version  
 import pandas as pd
-import openpyxl
+
 from openpyxl import Workbook
 from io import BytesIO
 
