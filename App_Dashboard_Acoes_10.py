@@ -102,7 +102,7 @@ def busca_capacidade_df():
          io = arq_excel_1,
          sheet_name="capacidade",
          engine="openpyxl",
-         usecols='A:H',
+         usecols='A:E',
          nrows = 31
          )
     return cap_df    
